@@ -8,6 +8,6 @@ class ServerLogger():
 		self.greco = '460172892'
 
 	def alertGreco(self, status, fname=''):
-		status += '\n#' + fname + ' ' + arrow.now().format('YYYY/MM/DD HH:mm')
+		# status += '\n#' + fname + ' ' 
 		self.bot.send_message(chat_id=self.greco, text=status)
 

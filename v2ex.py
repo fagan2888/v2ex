@@ -94,6 +94,7 @@ class V2ex():
         res = self.s.get(sign_url, headers={'Referer': 'https://www.v2ex.com/mission/daily'})
         des = self.balance()
         self.log.info(des)
+        ServerLogger().alertGreco('v2ex 签到@' + des)
         if res.text.find(u'已成功领取每日登录奖励') > 0:
             self.log.info('已成功领取每日登录奖励...')
         else:
@@ -105,6 +106,6 @@ if __name__ == '__main__':
     while True:
         vv.login()
         vv.daily()
-        time.sleep(300)
+        time.sleep(600)
 
 
