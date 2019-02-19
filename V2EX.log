@@ -1,0 +1,20 @@
+[DEBUG]: [19-Feb-2019 20:53:39]: STREAM b'IHDR' 16 13
+[DEBUG]: [19-Feb-2019 20:53:39]: STREAM b'IDAT' 41 17727
+[INFO]: [19-Feb-2019 20:53:47]: LOGIN FAILED.
+[DEBUG]: [19-Feb-2019 20:54:25]: STREAM b'IHDR' 16 13
+[DEBUG]: [19-Feb-2019 20:54:25]: STREAM b'IDAT' 41 15058
+[DEBUG]: [19-Feb-2019 20:54:31]: Error closing: 'NoneType' object has no attribute 'close'
+[INFO]: [19-Feb-2019 20:54:31]: {'8eaf593a9668754419b6a4386c667fca8fe013a06786bd3d535948a03236d7e9': 'homie2018', '963f0eb34053e209a94b42d9d6c9a98b4726d894294c6f5962f10f21ba28efb4': 'v2ex@2019', 'b0580b2103d86bc22a54ca17b6ea456ec89f15e52695a423864ac3df396e2128': 'xevowo', 'once': '81252', 'next': '/'}
+[INFO]: [19-Feb-2019 20:54:31]: LOGIN FAILED.
+[DEBUG]: [19-Feb-2019 20:54:45]: STREAM b'IHDR' 16 13
+[DEBUG]: [19-Feb-2019 20:54:45]: STREAM b'IDAT' 41 19621
+[DEBUG]: [19-Feb-2019 20:54:48]: Error closing: 'NoneType' object has no attribute 'close'
+[INFO]: [19-Feb-2019 20:54:48]: {'8eaf593a9668754419b6a4386c667fca8fe013a06786bd3d535948a03236d7e9': 'homie2018', '963f0eb34053e209a94b42d9d6c9a98b4726d894294c6f5962f10f21ba28efb4': 'v2ex@2019', 'b0580b2103d86bc22a54ca17b6ea456ec89f15e52695a423864ac3df396e2128': 'HDMVM', 'once': '25657', 'next': '/'}
+[INFO]: [19-Feb-2019 20:54:49]: LOGIN SUCCEED.
+[INFO]: [19-Feb-2019 20:54:51]: 20190219 的每日登录奖励 33 铜币
+[DEBUG]: [19-Feb-2019 20:54:51]: Entering: send_message
+[DEBUG]: [19-Feb-2019 20:54:51]: Starting new HTTPS connection (1): api.telegram.org
+[DEBUG]: [19-Feb-2019 20:54:53]: https://api.telegram.org:443 "POST /bot694574546:AAHP1sIl71OMKeHWWSzqTbTIAsps1k1KdMU/sendMessage HTTP/1.1" 200 324
+[DEBUG]: [19-Feb-2019 20:54:53]: {'message_id': 3083, 'date': 1550580892, 'chat': {'id': 460172892, 'type': 'private', 'username': 'NiL00100', 'first_name': 'NiL'}, 'text': 'v2ex 签到@20190219 的每日登录奖励 33 铜币', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 694574546, 'first_name': 'Logger', 'is_bot': True, 'username': 'LinuxLogger_bot'}}
+[DEBUG]: [19-Feb-2019 20:54:53]: Exiting: send_message
+[INFO]: [19-Feb-2019 20:54:53]: 已成功领取每日登录奖励...

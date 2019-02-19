@@ -70,6 +70,7 @@ class V2ex():
             print('close failed')
 
         params = {userid:self.username, passid:self.password, capthaid:captcha_value, 'once':once, 'next':'/'}
+        self.log.info(params)
 
         self.s.post('https://www.v2ex.com/signin', data=params, headers=self.headers)
         if 'signout' in self.s.get(main_page).text:
@@ -96,9 +97,9 @@ class V2ex():
         self.log.info(des)
         ServerLogger().alertGreco('v2ex 签到@' + des)
         if res.text.find(u'已成功领取每日登录奖励') > 0:
-            self.log.info('已成功领取每日登录奖励...')
+            self.log.info('小手一抖，金币到手。')
         else:
-            self.log.info('已经领取过每日登录奖励...')
+            self.log.info('已经领取过每日登录奖励。')
 
 
 if __name__ == '__main__':
