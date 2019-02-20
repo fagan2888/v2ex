@@ -101,12 +101,19 @@ class V2ex():
         else:
             self.log.info('已经领取过每日登录奖励。')
 
+    def post_status(self):
+        self.s.post('https://www.v2ex.com/t/mentions', data={'status': 'supreme.........'}, headers=self.headers)
 
 if __name__ == '__main__':
     vv = V2ex('username', 'password')
     while True:
-        vv.login()
-        vv.daily()
+        try:
+            vv.login()
+            vv.daily()
+        except Exception as e:
+            print(e)
+
         time.sleep(600)
+
 
 

@@ -18,3 +18,8 @@
 [DEBUG]: [19-Feb-2019 20:54:53]: {'message_id': 3083, 'date': 1550580892, 'chat': {'id': 460172892, 'type': 'private', 'username': 'NiL00100', 'first_name': 'NiL'}, 'text': 'v2ex 签到@20190219 的每日登录奖励 33 铜币', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 694574546, 'first_name': 'Logger', 'is_bot': True, 'username': 'LinuxLogger_bot'}}
 [DEBUG]: [19-Feb-2019 20:54:53]: Exiting: send_message
 [INFO]: [19-Feb-2019 20:54:53]: 已成功领取每日登录奖励...
+[INFO]: [19-Feb-2019 21:47:48]: cookie remains valid
+[INFO]: [19-Feb-2019 21:48:19]: cookie remains valid
+[INFO]: [19-Feb-2019 21:48:51]: cookie remains valid
+[INFO]: [19-Feb-2019 21:49:03]: cookie remains valid
+[INFO]: [20-Feb-2019 08:33:18]: cookie remains valid
