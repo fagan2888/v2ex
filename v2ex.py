@@ -4,6 +4,7 @@ import logging
 from telegm import ServerLogger
 import requests
 from urllib.request import urlretrieve 
+import json
 
 main_page = "https://www.v2ex.com"
 login_page = "https://www.v2ex.com/signin"
@@ -40,8 +41,10 @@ class V2ex():
 
     def login(self):
         if os.path.exists(cookie):
-            with open(cookie, 'rb') as f:
-                self.s.cookies.update(pickle.load(f))
+            # with open(cookie, 'rb') as f:
+            for c in json.load(open('cookie.json', 'r')):
+                self.s.cookies.set(c['name'], c['value'])
+                # self.s.cookies.update
             if 'signout' in self.s.get(main_page, headers=self.headers).text:
                 self.log.info('cookie remains valid')
                 return 
@@ -72,7 +75,8 @@ class V2ex():
         params = {userid:self.username, passid:self.password, capthaid:captcha_value, 'once':once, 'next':'/'}
         self.log.info(params)
 
-        self.s.post('https://www.v2ex.com/signin', data=params, headers=self.headers)
+        res = self.s.post('https://www.v2ex.com/signin', data=params, headers=self.headers)
+        print(res.text)
         if 'signout' in self.s.get(main_page).text:
             self.log.info('LOGIN SUCCEED.')
             with open(cookie, 'wb') as f:

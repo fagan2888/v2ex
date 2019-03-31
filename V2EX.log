@@ -23,3 +23,31 @@
 [INFO]: [19-Feb-2019 21:48:51]: cookie remains valid
 [INFO]: [19-Feb-2019 21:49:03]: cookie remains valid
 [INFO]: [20-Feb-2019 08:33:18]: cookie remains valid
+[DEBUG]: [31-Mar-2019 16:41:17]: STREAM b'IHDR' 16 13
+[DEBUG]: [31-Mar-2019 16:41:17]: STREAM b'IDAT' 41 20520
+[DEBUG]: [31-Mar-2019 16:41:28]: Error closing: 'NoneType' object has no attribute 'close'
+[INFO]: [31-Mar-2019 16:41:28]: {'e38c711ffda2efcd481825c656196befce21ce5f3cb37f6689059f4bed1a3dd0': 'username', '0cb8826fec76b8ed0310e36a9a9770590766525beaef57f37a5366e49f08d163': 'password', '8df6c6faf72716d42f0bfee360e72819a607bd7052a4a24e35a514e4c2652528': 'LIGWCCP', 'once': '31579', 'next': '/'}
+[INFO]: [31-Mar-2019 16:41:33]: LOGIN FAILED.
+[DEBUG]: [31-Mar-2019 16:41:41]: STREAM b'IHDR' 16 13
+[DEBUG]: [31-Mar-2019 16:41:41]: STREAM b'IDAT' 41 16322
+[DEBUG]: [31-Mar-2019 16:41:48]: Error closing: 'NoneType' object has no attribute 'close'
+[INFO]: [31-Mar-2019 16:41:48]: {'e38c711ffda2efcd481825c656196befce21ce5f3cb37f6689059f4bed1a3dd0': 'username', '0cb8826fec76b8ed0310e36a9a9770590766525beaef57f37a5366e49f08d163': 'password', '8df6c6faf72716d42f0bfee360e72819a607bd7052a4a24e35a514e4c2652528': 'DODZZG', 'once': '70787', 'next': '/'}
+[INFO]: [31-Mar-2019 16:41:49]: LOGIN FAILED.
+[DEBUG]: [31-Mar-2019 16:42:15]: STREAM b'IHDR' 16 13
+[DEBUG]: [31-Mar-2019 16:42:15]: STREAM b'IDAT' 41 20741
+[DEBUG]: [31-Mar-2019 16:42:26]: Error closing: 'NoneType' object has no attribute 'close'
+[INFO]: [31-Mar-2019 16:42:26]: {'e38c711ffda2efcd481825c656196befce21ce5f3cb37f6689059f4bed1a3dd0': 'username', '0cb8826fec76b8ed0310e36a9a9770590766525beaef57f37a5366e49f08d163': 'password', '8df6c6faf72716d42f0bfee360e72819a607bd7052a4a24e35a514e4c2652528': 'VTHJ', 'once': '71065', 'next': '/'}
+[INFO]: [31-Mar-2019 16:42:30]: LOGIN FAILED.
+[DEBUG]: [31-Mar-2019 17:32:56]: STREAM b'IHDR' 16 13
+[DEBUG]: [31-Mar-2019 17:32:56]: STREAM b'IDAT' 41 25794
+[DEBUG]: [31-Mar-2019 17:33:02]: Error closing: 'NoneType' object has no attribute 'close'
+[INFO]: [31-Mar-2019 17:33:02]: {'1f43027b899857efc9cbcbc92910119983a36aa6606690d0128032a8e5bbf817': 'username', '1c40936bdeb1328a0671bd53fbc9473867d0e5a99c65b006be72f11547fa16e5': 'password', 'd782016bd6cd4c01f8e7ee122346d4aa08af28ef300921cf08d7e2b78c57ae1d': 'jmzrue', 'once': '86559', 'next': '/'}
+[INFO]: [31-Mar-2019 17:33:03]: LOGIN FAILED.
+[INFO]: [31-Mar-2019 17:37:38]: cookie remains valid
+[INFO]: [31-Mar-2019 17:37:43]: 20190331 的每日登录奖励 11 铜币
+[DEBUG]: [31-Mar-2019 17:37:43]: Entering: send_message
+[DEBUG]: [31-Mar-2019 17:37:43]: Starting new HTTPS connection (1): api.telegram.org
+[DEBUG]: [31-Mar-2019 17:37:45]: https://api.telegram.org:443 "POST /bot694574546:AAHP1sIl71OMKeHWWSzqTbTIAsps1k1KdMU/sendMessage HTTP/1.1" 200 324
+[DEBUG]: [31-Mar-2019 17:37:45]: {'message_id': 6474, 'date': 1554025065, 'chat': {'id': 460172892, 'type': 'private', 'username': 'NiL00100', 'first_name': 'NiL'}, 'text': 'v2ex 签到@20190331 的每日登录奖励 11 铜币', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 694574546, 'first_name': 'Logger', 'is_bot': True, 'username': 'LinuxLogger_bot'}}
+[DEBUG]: [31-Mar-2019 17:37:45]: Exiting: send_message
+[INFO]: [31-Mar-2019 17:37:45]: 小手一抖，金币到手。
